@@ -45,5 +45,6 @@ test.describe("IMDB:", () => {
     console.log("learn git and git hub6");
     console.log("learn git and git hub7");
     console.log("learn git and git hub for develop branch");
+    console.log("learn git and git hub for develop branch from Gitx");
   });
 });
