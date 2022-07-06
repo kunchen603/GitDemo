@@ -17,7 +17,7 @@ test("Interact with Praxis Connect", async ({ page }) => {
   await page.waitForTimeout(3000);
 });
 
-test.skip("Interact with GRP", async ({ page }) => {
+test("Interact with GRP", async ({ page }) => {
   //await page.goto("https://206.12.12.51:44315/");
 
   //await page.goto("https://secure.rhigrp.net/");

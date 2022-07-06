@@ -23,5 +23,27 @@ test.describe("IMDB:", () => {
     console.log("learn git and git hub5");
     console.log("learn git and git hub6");
     console.log("learn git and git hub7");
+    console.log("learn git and git hub for develop branch");
+  });
+
+  test("verify search functionality", async ({ page }) => {
+    // 5. Define test data
+    const movieName = "Forrest Gump";
+
+    // 6. Go to the imdb page
+    await page.goto("https://www.imdb.com/");
+
+    // 7. Enter movie name in the search field
+    await page.fill("#suggestion-search", movieName);
+
+    // 8. Assert search result
+    expect(
+      await page.textContent("data-testid=search-result--const")
+    ).toContain(movieName);
+    console.log("learn git and git hub4");
+    console.log("learn git and git hub5");
+    console.log("learn git and git hub6");
+    console.log("learn git and git hub7");
+    console.log("learn git and git hub for develop branch");
   });
 });
