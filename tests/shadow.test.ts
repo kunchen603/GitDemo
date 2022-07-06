@@ -28,4 +28,6 @@ test.skip("Interact with GRP", async ({ page }) => {
   //await page.waitForTimeout(3000);
   await page.click("#LogOnButton");
   await page.waitForTimeout(10000);
+  console.log("learn git and git hub");
+  console.log("learn git and git hub");
 });

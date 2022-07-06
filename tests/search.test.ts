@@ -19,6 +19,9 @@ test.describe("IMDB:", () => {
     expect(
       await page.textContent("data-testid=search-result--const")
     ).toContain(movieName);
-    console.log("learn git and git hub");
+    console.log("learn git and git hub4");
+    console.log("learn git and git hub5");
+    console.log("learn git and git hub6");
+    console.log("learn git and git hub7");
   });
 });
