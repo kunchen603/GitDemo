@@ -36,6 +36,14 @@ public class CoreJavaBrushup {
 		{
 			System.out.println(s);
 		}
+		kunfunction()
+		{
+
+		}
+		kunfunction2()
+		{
+			
+		}
 		
 
 	}
