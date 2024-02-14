@@ -17,6 +17,8 @@ public class childClassDemo extends parentClassDemo {
 		
 		cd.color();
 		cd.breaks();
+		System.out.println("postJira2")
+		System.out.println("postJira3")
 	}
 
 }
