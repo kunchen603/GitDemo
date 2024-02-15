@@ -28,6 +28,10 @@ public class childClassDemo extends parentClassDemo {
 		System.out.println("postJira5")
 		System.out.println("postJira6")
 		System.out.println("postJira7")
+		System.out.println("postJira4")
+		System.out.println("postJira5")
+		System.out.println("postJira6")
+		System.out.println("postJira7")
 
 	}
 
